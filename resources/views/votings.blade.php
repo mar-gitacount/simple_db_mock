@@ -7,7 +7,7 @@
         @if (count($articles)>0)
         <div class="panel-body">
             <div class="panel-heading">
-                記事一覧
+                記事一覧です
             </div>
             @inject('gunle', 'App\developer_functions\Article_functions')
             <div class="panel-heading">
